@@ -1,0 +1,142 @@
+#panel {
+	position: fixed; bottom: 0%; left: 0%;
+	width: 100%;
+	height: 10%;
+    background:#EE82EE;
+}
+#menu {
+    position: fixed; right: 0%; top: 0%;
+	width: 20%;
+	height: 90%;
+    background:#4B0082;
+	display: line-block;
+}
+#shapka {
+	position: fixed; top: 0%; left: 0;
+	width: 80%;
+	height: 10%;
+	background:#EE82EE;
+}
+#center {
+	position: fixed; left: 0%; top: 10%;
+	width: 80%;
+	height: 80%;
+	background:#FFE4E1;
+}
+#frog {
+	position: fixed; left: 5%; top: 25%;
+	text-align: center;    
+}
+#frog2 {
+	position: fixed; left: 20%; top: 25%;
+	text-align: center;    
+}
+#frog3 {
+	position: fixed; left: 35%; top: 25%;
+	text-align: center;    
+}
+#frog4 {
+	position: fixed; left: 50%; top: 25%;
+	text-align: center;    
+}
+#frog5 {
+	position: fixed; left: 65%; top: 25%;
+	text-align: center;    
+}
+#logotip {
+	position: fixed;
+}
+#video {
+position:fixed;
+}
+#frog11 {
+	position:fixed; left:70%; top:25%
+
+
+
+
+
+#frog6 {
+	position: fixed; right: 8%; top: 12%;
+text-align: center; 
+{ 
+    
+}#frog7 {
+	position: fixed; right: 1%; top: 12%;
+	text-align: center;    
+}#frog8 {
+	position: fixed; right: 2.5%; top: 14%;
+	text-align: center;
+}    
+
+#thumbs { padding-top: 10%; overflow: hidden; 
+}
+ #ferge {
+    border: 1% solid gray;
+    padding: 4%;
+    background-color: white;
+    cursor: pointer;
+	display:lible block;
+	float:left;
+}
+#thumbs img {
+    float: right;
+    margin-right: 6%;
+	display: lible vlock;
+	float:left;
+}
+#description {
+    background: white;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 10%;
+    width: 52%;
+    margin: 5%;
+	display: libie block;
+	float:left;
+}
+#fihuvg {
+width:150%;
+height:100%;	
+display: line-block;
+float: left;
+color: red;
+background: #ba55d3;
+position: fixed;
+margin-top:-80%
+}
+	
+}
+#center1 {
+	text-align: center;
+	position: absolute;
+	width: 80%;
+	height: 140%;
+	background:#FFE4E1;
+}
+
+	#panel1j {
+	position: fixed;
+	width: 100%;
+	height: 10%;
+    background:#EE82EE;
+	}
+#container {
+	text-align:center;
+	width:85%;
+	float: left;
+	height:100vh ;
+	display: inline-block;
+	font-size: 14pt;
+}
+#menu1 {
+	width:15%;
+	height:150%;
+	display:inline-block;
+	float:right;
+	position:absolute;
+}
+#logotip1 {
+	
+	

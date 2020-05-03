@@ -1,0 +1,132 @@
+<title>testjava</title>
+<!DOCTYPE HTML>
+<meta name="description" charset="Utf-8"/>
+ <link rel="stylesheet"
+ type="text/css"
+ href="styles3.css"/>
+
+<html lang="ru">
+
+<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        let name = prompt("Имя?"),
+            age = +prompt('Возраст?');
+ 
+        alert(`Hello, ${name}!`);
+        let message = (age < 18) ? 'привет' : 'привет';
+        alert(message);
+    </script>
+</body>
+</html>
+<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        let b1, b2;
+        b1 = document.body.appendChild(document.createElement("button"));
+        b1.innerHTML = "Именно этот текст выводить";
+        b1.onclick = handler;
+ 
+        function handler() {
+            alert(this.innerHTML);
+        }
+        b2 = document.body.appendChild(document.createElement("button"));
+        b2.innerHTML = "Удалить события с первой кнопки";
+        b2.onclick = () => { b1.onclick = null };
+    </script>
+</body>
+</html>
+
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Программа сложения двух чисел</title>
+ 
+		<script>
+		function addition() {
+			var a = parseInt(document.getElementById('a').value);
+			var b = parseInt(document.getElementById('b').value);
+ 
+			if (isNaN(a)==true) a=0;
+			if (isNaN(b)==true) b=0;
+ 
+			var c = a + b;
+ 
+			document.getElementById('result').innerHTML = a + " + " + b + " = " + c;
+
+		}
+		</script>
+	</head>
+	<body>
+		<form>
+			<input id="a" type="text" value="1"><br>
+			<input id="b" type="text" value="1"><br>
+			<input type="button" value="Сложить 2 два числа" onclick="addition();"><br>
+		</form>
+	<div id="result"></div>
+	</body>
+</html>
+<html>
+
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <script>
+    alert( 'привет!!' );
+  </script>
+  
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body bgcolor="#EE82EE">
+<script>alert('Я – JavaScript!')</script>
+<h2 align="center">JavaScript</h2>
+</body>
+</html>
+
+
+
+</body>
+
+</html>
+<html> 
+<body> 
+<table> 
+<script language="JavaScript"> 
+document.write("<tr><td>&nbsp;</td>"); 
+for (i = 1; i < 10; i++) document.write("<td><td>"+"&nbsp;</td>"); 
+document.write("</tr>"); 
+var r, g, b, color; 
+for (i = 1; i < 10; i++) 
+{ 
+document.write("<tr><td>" + "&nbsp;</td>"); 
+for (j = 1; j < 10; j++){ 
+
+r = Math.round(255*Math.random()).toString(16); 
+g = Math.round(255*Math.random()).toString(16); 
+b = Math.round(255*Math.random()).toString(16); 
+color = r + g + b; 
+
+document.write('<td bgcolor=#'+color+'>'+'#'+color+'</td>'); 
+} 
+document.write("</tr>"); 
+} 
+
+</script> 
+</table> 
+</body> 
+</html>

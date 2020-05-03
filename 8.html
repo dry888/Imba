@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+
+<html lang="ru">
+<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        let name = prompt("NAME,CENAME?"),
+            age = +prompt('age?', 18);
+ 
+        alert(`Hello, ${name}!`);
+        let message = (age < 18) ? 'Привет' : 'Привет';
+        alert(message);
+    </script>
+</body>
+</html>
+<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Программа сложения двух,трёх,четырех,пяти чисел</title>
+ 
+		<script>
+		function addition() {
+			var a = parseInt(document.getElementById('a').value);
+			var b = parseInt(document.getElementById('b').value);
+			var d = parseInt(document.getElementById('d').value);
+			var e = parseInt(document.getElementById('e').value);
+ 
+			if (isNaN(a)==true) a=0;
+			if (isNaN(b)==true) b=0;
+			if (isNaN(d)==true) d=0;
+			if (isNaN(e)==true) e=0;
+ 
+			var c = a + b + d + e;
+ 
+			document.getElementById('result').innerHTML = a + " + " + b + " + " + d + " + " + e + " = " + c;
+
+		}
+		</script>
+	</head>
+</body>
+</html>
+
+
+	
+	<body>
+		<form>
+			<input id="a" type="text" value="1"><br>
+			<input id="b" type="text" value="1"><br>
+			<input id="d" type="text" value="1"><br>
+			<input id="e" type="text" value="1"><br>
+			<input type="button" value="Сложить числа" onclick="addition();"><br>
+		</form>
+	<div id="result"></div>
+	</body>
+</html>

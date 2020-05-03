@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<body>
+<html language="ru">
+<head>
+ <meta charset="utf-8" />
+<title>Калькулятор на javascript</title>
+<meta http-equiv="Content-type" content="text/html"; charset=windows-1251"/>
+<script type=text/javascript">
+function calc() {
+var type_design=document.getElementByld("type_design");
+var is_html=document.getElementByld("is_html");
+var count=document.getElementByld("count);
+var=result=document.getElementByld("result");
+
+var price=0
+price+=parselnt(type_design.options[type_design.selectedidndex].value);
+price +=(is_html.checked==true)?
+parselnt(is_html.value):0;
+price=parselnt(count.value)*price;
+
+result.innerHTML=price
+}
+</script>
+</head>
+<body>
+<b>Тип сухого энергетика</b></br>
+<select onchange="calc()" id="type_desigh">
+<option value="0">Выбрать</option>
+<option value="1200">GreypFruit</option>
+<option value="1300">MIX </option>
+<option value="1150">Orange</option> 
+<option value="1100">Citrus</option> 
+<option value="2000">Shaiker+7 portions</option></select></br>
+<input type="checkbox" onchange="calc()" value="3000" id="is_html"/><label for="is_html">Требуется верстка?</label></br>
+Кол-во товара: <input type="text" id="count" value="1" onchange="calc()"/>
+</div>Стоимость товара:<span id="result">0</span>руб.</div>
+</body>
+</html>

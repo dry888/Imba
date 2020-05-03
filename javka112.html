@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+
+<html lang="ru">
+
+<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+<html> 
+<body> 
+<p><input type="button" value="Создать Таблицу" name="a" OnClick="tablcvetov();"></p>
+<script language="JavaScript"> 
+function tablcvetov() {
+str = Number(prompt("Введите кол-во строк", ""));
+stol = Number(prompt("Введите кол-во столбцов",""));
+document.write("<table>");
+document.write("<tr><td>&nbsp;</td>"); 
+for (i = 1; i <= 10; i++) document.write("<td><td>"+"&nbsp;</td>"); 
+document.write("</tr>"); 
+var r, g, b, color;
+for (i = 1; i <= str; i++) 
+{ 
+document.write("<tr><td>" + "&nbsp;</td>"); 
+for (j = 1; j <= stol; j++){ 
+
+r = Math.round(255*Math.random()).toString(16); 
+g = Math.round(255*Math.random()).toString(16); 
+b = Math.round(255*Math.random()).toString(16); 
+color = r + g + b; 
+
+document.write('<td bgcolor=#'+color+'>'+'#'+color+'</td>'); 
+} 
+document.write("</tr>"); 
+} 
+document.write("</table>");
+}
+
+</script>  
+</body> 
+</html>

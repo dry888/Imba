@@ -1,0 +1,50 @@
+
+#shapka {
+	position:fixed;
+	top: 0%; 
+	left: 0%;
+	width: 85%;
+	height: 10%;
+	background:ff9900;
+	z-index:1;
+}
+#center {
+	position:center;
+	width:85%;
+	
+}
+#menu {
+    position: absolute; right: 0%; top: 0%;
+	width: 15%;
+	height: 200%;
+    background:#4B0082;
+	display: line-block;
+
+}	
+#container {
+	text-align:center;
+	float:left;
+	height:200vh;
+	background:#FFE4E1;
+	display: line-block;
+	color: FFE4E1;
+}
+#panel {
+	position:fixed;
+	bottom:0%;
+	left:0%;
+	width: 100%;
+	height:8%;
+	background:#EE82EE;
+}
+#logo {
+	position:fixed;
+	top:1%;
+}
+#odin {
+	position:center;
+}
+#audio {
+	position: fixed;
+	left: 10%
+	
